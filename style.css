@@ -34,7 +34,7 @@ body {
   left: 0;
   height: 100%;
   transition: opacity 1s ease-in-out;
-  background-position: center center;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;

@@ -113,3 +113,7 @@ div > h5 {
   border-color: #990000;
   box-shadow: 2px 2px 5px #990000;
 }
+
+.center-block {
+  block-size: auto;
+}

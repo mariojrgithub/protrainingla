@@ -60,3 +60,13 @@ h4 {
 #name {
   color: #990000;
 }
+
+div > h1 {
+  font-size: 65px;
+  text-shadow: 2px 2px 5px #990000;
+}
+
+div > h3 {
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 5px #990000;
+}

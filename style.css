@@ -45,7 +45,7 @@ body {
 }
 
 #about {
-  padding-top: 100px;
+  padding-top: 150px;
   text-align: center;
 }
 h2 + hr {
@@ -53,7 +53,8 @@ h2 + hr {
   width: 60px;
 }
 
-h4 {
+h4,
+h5 {
   text-align: center;
 }
 
@@ -69,4 +70,35 @@ div > h1 {
 div > h3 {
   letter-spacing: 5px;
   text-shadow: 2px 2px 5px #990000;
+}
+
+#mission {
+  padding-top: 75px;
+  text-align: center;
+}
+
+div > h5 {
+  font-size: 22px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://drive.google.com/uc?export=view&id=1lOJGLouzsd9qMzyMHLp9x-_tuVopVSoJ");
+
+  /* Set a specific height */
+  height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 55% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.qualifications {
+  padding-top: 100px;
+}
+
+#nav {
+  background-color: #990000;
 }

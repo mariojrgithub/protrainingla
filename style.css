@@ -107,6 +107,7 @@ div > h5 {
 
 #nav {
   background-image: linear-gradient(#990000, #b74c4c);
+  background-size: auto;
 }
 
 #start {

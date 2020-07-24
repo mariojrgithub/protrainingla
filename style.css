@@ -116,4 +116,5 @@ div > h5 {
 
 .center-block {
   block-size: auto;
+  padding: 3px;
 }

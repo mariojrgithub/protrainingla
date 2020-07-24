@@ -43,3 +43,20 @@ body {
 .carousel .slide.show {
   opacity: 1;
 }
+
+#about {
+  padding-top: 100px;
+  text-align: center;
+}
+h2 + hr {
+  border-top: 2px solid red;
+  width: 60px;
+}
+
+h4 {
+  text-align: center;
+}
+
+#name {
+  color: #990000;
+}

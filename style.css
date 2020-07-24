@@ -22,7 +22,7 @@ body {
   text-align: center;
   z-index: 2;
   padding: 30px;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
 }
 
@@ -114,7 +114,21 @@ div > h5 {
   box-shadow: 2px 2px 5px #990000;
 }
 
-.center-block {
-  block-size: auto;
-  padding: 3px;
+.qualifications {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 0px;
+}
+
+.qualifications .other-text {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  padding: 30px;
+  font-size: 45px;
+  color: white;
 }

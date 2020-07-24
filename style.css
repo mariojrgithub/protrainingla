@@ -48,6 +48,11 @@ body {
   padding-top: 150px;
   text-align: center;
 }
+
+h3 + hr {
+  width: 600px;
+}
+
 h2 + hr {
   border-top: 2px solid red;
   width: 60px;
@@ -90,9 +95,10 @@ div > h5 {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: 55% 50%;
+  background-position: 55% 20%;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(45%);
 }
 
 .qualifications {

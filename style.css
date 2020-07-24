@@ -1,13 +1,22 @@
+* {
+  scroll-behavior: smooth;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  height: 6000px;
+}
+
 .carousel {
   width: 100%;
-  height: 500px;
+  height: 900px;
   position: relative;
   top: 55px;
 }
 
 .carousel .other-content {
   position: absolute;
-  top: 150px;
+  top: 350px;
   left: 0;
   width: 100%;
   text-align: center;

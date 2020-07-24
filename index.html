@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img
+              alt="Brand"
+              src="https://drive.google.com/uc?export=view&id=1AkNMhaBXKTntZ_K1jFkF2ctl--mD6tOy"
+              height="30px"
+            />
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li><a href="#">Services</a></li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Dropdown <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search" />
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="carousel">
+            <div class="other-content">
+              <h1>Mario Sanchez Personal Training</h1>
+              <h3>Safe Effective Personalized</h3>
+              <hr />
+              <button class="btn btn-default btn-lg">Get Started</button>
+            </div>
+            <div
+              class="slide show"
+              style="
+                background-image: url('https://drive.google.com/uc?export=view&id=1eL-RLOnAiSltoHhRbKIFpUumT9ghk_zM');
+              "
+            ></div>
+            <div
+              class="slide"
+              style="
+                background-image: url('https://drive.google.com/uc?export=view&id=1ZySZFFXgb5wAgcLArssxLXkDv9inkrXV');
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /**
+       * @param  {number} interval (in milliseconds)
+       */
+      function cycleBackgrounds(interval) {
+        let index = 0;
+
+        const $imageEls = document.querySelectorAll(".carousel .slide"); // Get the images to be cycled.
+
+        setInterval(() => {
+          // Get the next index.  If at end, restart to the beginning.
+          index = index + 1 < $imageEls.length ? index + 1 : 0;
+
+          // Show the next
+          $imageEls[index].classList.add("show");
+
+          // Find the previous.
+          const previous = index - 1 < 0 ? $imageEls.length - 1 : index - 1;
+
+          // Hide the previous
+          $imageEls[previous].classList.remove("show");
+        }, interval);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        cycleBackgrounds(2000);
+      });
+    </script>
+  </body>
+</html>

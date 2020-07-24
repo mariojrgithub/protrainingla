@@ -108,3 +108,8 @@ div > h5 {
 #nav {
   background-color: #990000;
 }
+
+#start {
+  border-color: #990000;
+  box-shadow: 2px 2px 5px #990000;
+}

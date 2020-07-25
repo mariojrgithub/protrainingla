@@ -22,7 +22,7 @@ body {
   text-align: center;
   z-index: 2;
   padding: 30px;
-  /* font-size: 45px; */
+  font-size: 45px;
   color: white;
 }
 
@@ -47,10 +47,11 @@ body {
 #about {
   padding-top: 150px;
   text-align: center;
+  font-size: 40px;
 }
 
 h3 + hr {
-  width: 20%;
+  width: 600px;
 }
 
 h2 + hr {
@@ -68,7 +69,7 @@ h5 {
 }
 
 div > h1 {
-  font-size: 65%;
+  font-size: 75%;
   text-shadow: 2px 2px 5px #990000;
 }
 
@@ -80,6 +81,7 @@ div > h3 {
 #mission {
   padding-top: 75px;
   text-align: center;
+  font-size: 40px;
 }
 
 div > h5 {
@@ -101,10 +103,6 @@ div > h5 {
   filter: brightness(45%);
 }
 
-.qualifications {
-  padding-top: 100px;
-}
-
 #nav {
   background-image: linear-gradient(#990000, #b74c4c);
 }
@@ -118,17 +116,20 @@ div > h5 {
   width: 100%;
   height: 500px;
   position: relative;
-  top: 0px;
+  top: 100px;
 }
 
 .qualifications .other-text {
   position: absolute;
-  top: 100px;
+  top: 0px;
   left: 0;
   width: 100%;
   text-align: center;
   z-index: 2;
   padding: 30px;
-  font-size: 45px;
   color: white;
+}
+
+#exp {
+  font-size: 40px;
 }

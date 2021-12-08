@@ -17,7 +17,6 @@ export default class PictureCarousel extends Component {
             <h2>Mario Sanchez, Jr. Personal Training</h2>
             <hr />
             <h3>Safe.Effective.Personalized</h3>
-            <button className="btn btn-danger">Click to Begin</button>
           </div>
           <div className="carousel-item active">
             <img src={palmtrees} className="d-block w-100" alt="..." />

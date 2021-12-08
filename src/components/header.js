@@ -6,7 +6,7 @@ export default class Header extends Component {
       <header>
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
               ProTraining LA
             </a>
             <button
@@ -23,17 +23,24 @@ export default class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
+                  <a className="nav-link" aria-current="page" href="#nutrition">
+                    Nutrition
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Link
+                  <a className="nav-link" href="#stretch">
+                    Stretch
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link disabled">Disabled</a>
+                  <a className="nav-link" href="#assessment">
+                    Assessment
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#training">
+                    Training
+                  </a>
                 </li>
               </ul>
             </div>

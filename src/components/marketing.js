@@ -41,7 +41,7 @@ export default class Marketing extends Component {
             <FontAwesomeIcon icon={faGraduationCap} size="5x" />
 
             <h2>Education</h2>
-            <p>
+            <p id="nutrition">
               Bachelor of Science in Kinesiology from the University of Southern
               California
               <br /> CPR/AED Certified by the American Red Cross
@@ -65,7 +65,7 @@ export default class Marketing extends Component {
               and protein; are adjusted with each 3-month microcycle.
             </p>
           </div>
-          <div className="col-md-5">
+          <div id="stretch" className="col-md-5">
             <img
               className="marketing-image bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               src={nutrition}
@@ -88,7 +88,7 @@ export default class Marketing extends Component {
               <br /> Simple and easy to integrate into your busy schedule.
             </p>
           </div>
-          <div className="col-md-5 order-md-1">
+          <div id="assessment" className="col-md-5 order-md-1">
             <img
               className="marketing-image bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               src={stretch}
@@ -114,7 +114,7 @@ export default class Marketing extends Component {
               <br /> How do you measure up?
             </p>
           </div>
-          <div className="col-md-5">
+          <div id="training" className="col-md-5">
             <img
               className="marketing-image bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               src={assessment}

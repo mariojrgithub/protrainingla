@@ -5,7 +5,7 @@ export default class Purchase extends Component {
     return (
       <div className="container marketing">
         <div className="row">
-          <div id="purchase" className="col-lg-4 text-center">
+          <div id="purchase" className="col-lg-12 text-center">
             <h3>Online Check Out</h3>
 
             <div

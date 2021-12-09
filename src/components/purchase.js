@@ -10,7 +10,7 @@ export default class Purchase extends Component {
 
             <div
               style={{
-                width: "500px",
+                width: "250px",
                 margin: "0 auto",
                 background: "#FFFFFF",
                 border: "1px solid rgba(0, 0, 0, 0.1)",
